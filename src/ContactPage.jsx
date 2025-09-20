@@ -1,6 +1,11 @@
 import React from "react";
 import "./ContactPage.css";
 import Logo from "/logo.png";
+import Bg from "./assets/bg.png";
+import Lady from "./assets/lady.jpg";
+import Pata from "./assets/pata.png";
+import Pata2 from "./assets/pata2.png";
+
 
 const ContactPage = () => {
     return (
@@ -20,17 +25,17 @@ const ContactPage = () => {
 
             {/* Contact Section */}
             <section className="contact">
-                <div className="overlay"> <img src="./asset/lady.jpg" alt="image"/> </div>
-                <div className="overlay4"> <img src="./asset/bg.png" alt="image"/> </div>
+                <div className="overlay"> <img src={Lady} alt="image"/> </div>
+                <div className="overlay4"> <img src={Bg} alt="image"/> </div>
                 <h1>Contact Us</h1>
                 <p className="subtitle">Get in touch with us</p>
                 <div className="contact-container">
-                    <div className="overlay3"> <img src="./asset/pata2.png" alt="image"/> </div>
+                    <div className="overlay3"> <img src={Pata2} alt="image"/> </div>
                     <div className="contact-image">
                         <img src="../public/image.png" alt="Smiling woman skincare" />
                     </div>
                     <form className="contact-form">
-                        <div className="overlay2"> <img src="./asset/pata.png" alt="image"/> </div>                        <div className="form-group">
+                        <div className="overlay2"> <img src={Pata} alt="image"/> </div>                        <div className="form-group">
                             <input type="text" placeholder="First Name" />
                             <input type="text" placeholder="Last Name" />
                         </div>
