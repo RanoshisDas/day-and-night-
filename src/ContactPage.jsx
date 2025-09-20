@@ -1,12 +1,13 @@
 import React from "react";
 import "./ContactPage.css";
+import Logo from "/logo.png";
 
 const ContactPage = () => {
     return (
         <>
             {/* Navbar */}
             <header className="navbar">
-                <div className="logo"><img src="./asset/logo.png" alt={"logo"} /> </div>
+                <div className="logo"><img src={Logo} alt={"logo"} /> </div>
                 <nav>
                     <ul>
                         <li><a href="#">Home</a></li>
@@ -60,7 +61,7 @@ const ContactPage = () => {
             <footer>
                 <div className="footer-container">
                     <div className="footer-about">
-                        <div className="logo"><img src="./asset/logo.png" alt={"logo"} /> </div>
+                        <div className="logo"><img src={Logo} alt={"logo"} /> </div>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 
                     </div>
