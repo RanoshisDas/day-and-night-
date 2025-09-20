@@ -22,11 +22,11 @@ const ContactPage = () => {
             {/* Contact Section */}
             <section className="contact">
                 <div className="overlay"> <img src={Lady} alt="image"/> </div>
-                <div className="overlay4"> <img src="../public/bg.png" alt="image"/> </div>
+                <div className="overlay4"> <img src="./asset/bg.png" alt="image"/> </div>
                 <h1>Contact Us</h1>
                 <p className="subtitle">Get in touch with us</p>
                 <div className="contact-container">
-                    <div className="overlay3"> <img src="../public/pata2.png" alt="image"/> </div>
+                    <div className="overlay3"> <img src="./asset/pata2.png" alt="image"/> </div>
                     <div className="contact-image">
                         <img src="../public/image.png" alt="Smiling woman skincare" />
                     </div>
