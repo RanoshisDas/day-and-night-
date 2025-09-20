@@ -1,5 +1,6 @@
 import React from "react";
 import "./ContactPage.css";
+import Lady from "/lady.jpg"
 
 const ContactPage = () => {
     return (
@@ -19,7 +20,7 @@ const ContactPage = () => {
 
             {/* Contact Section */}
             <section className="contact">
-                <div className="overlay"> <img src="../public/lady.jpg" alt="image"/> </div>
+                <div className="overlay"> <img src="Lady" alt="image"/> </div>
                 <div className="overlay4"> <img src="../public/bg.png" alt="image"/> </div>
                 <h1>Contact Us</h1>
                 <p className="subtitle">Get in touch with us</p>
