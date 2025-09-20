@@ -5,6 +5,7 @@ import Bg from "./assets/bg.png";
 import Lady from "./assets/lady.jpg";
 import Pata from "./assets/pata.png";
 import Pata2 from "./assets/pata2.png";
+import Image from "./assets/image.png";
 
 
 const ContactPage = () => {
@@ -32,7 +33,7 @@ const ContactPage = () => {
                 <div className="contact-container">
                     <div className="overlay3"> <img src={Pata2} alt="image"/> </div>
                     <div className="contact-image">
-                        <img src="../public/image.png" alt="Smiling woman skincare" />
+                        <img src={Image} alt="Smiling woman skincare" />
                     </div>
                     <form className="contact-form">
                         <div className="overlay2"> <img src={Pata} alt="image"/> </div>                        <div className="form-group">
