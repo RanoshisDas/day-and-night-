@@ -1,13 +1,14 @@
 import React from "react";
 import "./ContactPage.css";
 import Lady from "/lady.jpg"
+import Logo from "/logo.png"
 
 const ContactPage = () => {
     return (
         <>
             {/* Navbar */}
             <header className="navbar">
-                <div className="logo"><img src="../public/logo.png" alt={"logo"} /> </div>
+                <div className="logo"><img src={Logo} alt={"logo"} /> </div>
                 <nav>
                     <ul>
                         <li><a href="#">Home</a></li>
@@ -20,7 +21,7 @@ const ContactPage = () => {
 
             {/* Contact Section */}
             <section className="contact">
-                <div className="overlay"> <img src="Lady" alt="image"/> </div>
+                <div className="overlay"> <img src={Lady} alt="image"/> </div>
                 <div className="overlay4"> <img src="../public/bg.png" alt="image"/> </div>
                 <h1>Contact Us</h1>
                 <p className="subtitle">Get in touch with us</p>
@@ -61,7 +62,7 @@ const ContactPage = () => {
             <footer>
                 <div className="footer-container">
                     <div className="footer-about">
-                        <div className="logo"><img src="../public/logo.png" alt={"logo"} /> </div>
+                        <div className="logo"><img src={Logo} alt={"logo"} /> </div>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 
                     </div>
